@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "test-expo-47": ["../src/index"],
+      "test-expo-47/*": ["../src/*"]
+    }
+  }
+}
